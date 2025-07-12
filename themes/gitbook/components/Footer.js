@@ -49,6 +49,8 @@ const Footer = ({ siteInfo }) => {
         <i className='fas fa-users' />{' '}
         <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
       </span>
+      {/* Powered By section removed - 已移除 "Powered By" 部分 */}
+      {/* 
       <div className='text-xs font-serif'>
         Powered By{' '}
         <a
@@ -57,6 +59,7 @@ const Footer = ({ siteInfo }) => {
           NotionNext {siteConfig('VERSION')}
         </a>
       </div>
+      */}
       {/* SEO title */}
       <h1 className='pt-1 hidden'>{siteConfig('TITLE')}</h1>
     </footer>
