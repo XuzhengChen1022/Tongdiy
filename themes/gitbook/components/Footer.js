@@ -25,9 +25,8 @@ const Footer = ({ siteInfo }) => {
             className='underline font-bold text-gray-500 dark:text-gray-300 '>
             {siteConfig('AUTHOR')}
           </a>
-          .<br />
+          {' '} © {`${copyrightDate}`}
         </div>
-        © {`${copyrightDate}`}
       </div>
 
       {siteConfig('BEI_AN') && (
